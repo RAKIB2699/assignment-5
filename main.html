@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#F4F7FF] pt-5">
+    <section class="w-10/12 mx-auto">
+        <nav class="flex justify-between bg-white px-6 py-4 border-none rounded-2xl mb-6">
+            <div class="flex items-center gap-2">
+                <img class="w-12 h-12" src="./assets/logo.png" alt="">
+                <p class="text-3xl">Dev <span class="font-bold">Board</span></p>
+            </div>
+            <div class="flex items-center gap-9">
+                <button id="backbtn" class="btn text-white bg-[#3752FD]">Back to Desk</button>
+            </div>
+
+        </nav>
+        <p class="font-bold flex justify-center mt-4 mb-4">Blogs</p>
+        <div class="bg-white px-4 py-5 rounded-lg mb-4">
+            <p class="font-bold text-xl pb-3">Question-1: What are the different ways to select an element in the DOM?
+            </p>
+            <hr class="border-b border-dashed border-blue-100">
+            <p class="text-[18px] font-normal pt-3">There are the different way to select an element in the don these
+                are getElementById,getElementsByClassName,getElementsByTagName,querySelector,getElementsByName.</p>
+        </div>
+
+        <div class="pb-6">
+            <div class="bg-white px-4 py-5 rounded-lg mb-4">
+                <p class="font-bold text-xl pb-3">Question-2: What is the difference between innerHTML, innerText, and
+                    textContent ?</p>
+                <hr class="border-b border-dashed border-blue-100">
+                <p class="text-[18px] font-normal pt-3">By using innerHTML we get or set the html content of an
+                    element,by using innerText we set the text content of an element its allow css property and the last
+                    one is textContent is almost same as innerText but its does not allows css. </p>
+            </div>
+            <div class="bg-white px-4 py-5 rounded-lg mb-4">
+                <p class="font-bold text-xl pb-3">Question-3: What is event delegation in the DOM?</p>
+                <hr class="border-b border-dashed border-blue-100">
+                <p class="text-[18px] font-normal pt-3">Event Delegation is basically a pattern to handle events
+                    efficiently. </p>
+            </div>
+            <div class="bg-white px-4 py-5 rounded-lg mb-4">
+                <p class="font-bold text-xl pb-3">Question-4: What is event bubbling in the DOM?</p>
+                <hr class="border-b border-dashed border-blue-100">
+                <p class="text-[18px] font-normal pt-3">Event bubbling in JavaScript is a mechanism where an event
+                    triggered on a child element propagates upward through its ancestors in the DOM </p>
+            </div>
+            <div class="bg-white px-4 py-5 rounded-lg mb-4">
+                <p class="font-bold text-xl pb-3">Question-5: How do you create, add, and remove elements using
+                    JavaScript?</p>
+                <hr class="border-b border-dashed border-blue-100">
+                <p class="text-[18px] font-normal pt-3">we create element using createElement() method and doing
+                    something add we use appendChild() method and to remove using removeChild() or remove() method </p>
+            </div>
+        </div>
+    </section>
+    <script src="./scricpts/backward.js"></script>
+</body>
+
+</html>
