@@ -25,6 +25,10 @@ document.getElementById("blogbtn").addEventListener('click', function () {
     window.location.href = "main.html"
 })
 
+document.getElementById("backbtn").addEventListener('click',function(){
+    window.location.href = "index.html"
+})
+
 const btns = document.querySelectorAll(".completebtn");
     let value1 = parseInt(document.getElementById("navValue").innerText);
     let value2 = parseInt(document.getElementById("taskValue").innerText);
@@ -48,13 +52,16 @@ for(const btn of btns){
        newTitle.style.margin = "10px";
        newTitle.style.borderRadius ="5px";
 
-       var disabledButtons = document.querySelectorAll('btn:disabled').length;
+       var disabledButtons = document.querySelectorAll('button:disabled').length;
        
             if (disabledButtons === 6) {
-                alert('All 6 buttons clicked successfully!');
+                alert('Congrates!!! You have complete all the task');
             }
     })
 }
 
 
-document.getElementById("")
+document.getElementById("clearbtn").addEventListener('click',function(){
+   const refresh = document.getElementById("container");
+   refresh.style.display ="none";
+})
