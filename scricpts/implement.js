@@ -61,5 +61,5 @@ for(const btn of btns){
 
 document.getElementById("clearbtn").addEventListener('click',function(){
    const refresh = document.getElementById("container");
-   refresh.style.display ="none";
+   refresh.innerHTML = '';
 })
