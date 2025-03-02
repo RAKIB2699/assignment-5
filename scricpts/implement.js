@@ -25,9 +25,7 @@ document.getElementById("blogbtn").addEventListener('click', function () {
     window.location.href = "main.html"
 })
 
-document.getElementById("backbtn").addEventListener('click',function(){
-    window.location.href = "index.html"
-})
+
 
 const btns = document.querySelectorAll(".completebtn");
     let value1 = parseInt(document.getElementById("navValue").innerText);
